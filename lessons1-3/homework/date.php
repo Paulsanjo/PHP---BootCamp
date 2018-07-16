@@ -13,7 +13,7 @@ if (!empty(explode('.', $date)[0]) && !empty(explode('.', $date)[1]) && !empty(e
     $month = explode('.', $date)[1];
     $year = explode('.', $date)[2];
 } else {
-    
+    exit('wrong format');
 }
 
 //Calculate age
