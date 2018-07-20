@@ -1,5 +1,6 @@
 <?php
 
+
 function getName() {
     $name = 'Alex';
     return $name;
@@ -21,6 +22,6 @@ function getPlace() {
 }
 
 function getInfo() {
-    return 'Previous functions: getName, getCurrentDate, getAge, getPlace';
+    return 'Defined functions: getName, getCurrentDate, getAge, getPlace';
 }
 
