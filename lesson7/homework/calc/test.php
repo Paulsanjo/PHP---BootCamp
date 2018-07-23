@@ -110,6 +110,8 @@ if (number_format(multiplication(0.333, 0.334), 6) === "0.111222") {
 }
 
 //echo multiplication(0.333, 0.334),'<br>';
+//var_dump(multiplication(0.333, 0.334));
+//echo '<br>';
 //echo bccomp(multiplication(0.333, 0.334), 0.111222),'<br>';
 //echo gmp_cmp((String)$str = multiplication(0.333, 0.334), "0.111222"),'<br>';
 

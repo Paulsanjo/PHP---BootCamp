@@ -149,3 +149,20 @@ echo '<br><br>';
 for ($i = 0; $i < count($auto['audi']['a6']); $i++) {
     echo $auto['audi']['a6'][$i] . '<br>';
 }
+
+echo '<br><br>';
+
+//echo exact element of an array
+echo $auto['alfaromeo']['159'][0];
+
+echo '<br><br>';
+
+//unset() example
+
+print_r($auto['alfaromeo']['159']);
+
+echo '<br><br>';
+
+unset($auto['alfaromeo']['159'][0]);
+
+print_r($auto['alfaromeo']['159']);
