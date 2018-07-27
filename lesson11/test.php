@@ -20,5 +20,5 @@ $company = new Company();
 $company->setCompanyName('HelloIT');
 $company->setName('Alex');
 
-echo $company->getName();
+echo $company->getWorkerName();
 

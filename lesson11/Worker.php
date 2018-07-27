@@ -13,7 +13,7 @@ class Worker {
         $this->salary = $salary;
     }
 
-    public function getName() {
+    protected function getName() {
         return $this->name;
     }
 

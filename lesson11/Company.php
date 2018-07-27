@@ -16,4 +16,8 @@ class Company extends Worker{
     public function getCompanyName(){
         return $this->companyName;
     }
+    
+    public function getWorkerName(){
+        return $this->getName();
+    }
 }
