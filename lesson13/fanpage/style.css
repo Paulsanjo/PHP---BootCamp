@@ -1,0 +1,21 @@
+body
+{
+    background: linear-gradient(to top, #fefcea, #f1da36);
+}
+
+#menu
+{
+    
+}
+
+#menu ul{
+    margin: 0;
+    padding: 4px;
+}
+#menu ul li{
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+}
+
+
