@@ -37,7 +37,7 @@ if (isset($_SESSION['logged_in'])) {
     ?>
     <html>
     <head>
-        <title>CMS Tutorial</title>
+        <title>Blogh - Admin</title>
         <link rel="stylesheet" href="../assets/style.css"/>
     </head>
 
